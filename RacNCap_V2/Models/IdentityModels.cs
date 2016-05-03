@@ -29,5 +29,7 @@ namespace RacNCap_V2.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<RacNCap_V2.Models.TrucksViewModels> TrucksViewModels { get; set; }
     }
 }
