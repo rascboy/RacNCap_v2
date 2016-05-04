@@ -1,5 +1,10 @@
-﻿body {
-  font-family: 'Roboto', sans-serif;
+﻿@font-face {
+    font-family: 'lovelo black';
+    src: url('../fonts/lovelo black.otf') format('opentype');
+}
+
+body {
+  font-family: 'lovelo black' ,'Roboto', sans-serif;
   font-weight: 300;
   background-color: #485f77;
   color: white;

@@ -17,7 +17,8 @@ namespace RacNCap_V2.Controllers
         // GET: Trucks
         public ActionResult Index()
         {
-            return View(db.TrucksViewModels.ToList());
+            return View();
+            //return View(db.TrucksViewModels.ToList());
         }
 
         // GET: Trucks/Details/5

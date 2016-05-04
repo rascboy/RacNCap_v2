@@ -188,6 +188,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\JumboImage.jpg" />
     <Content Include="Content\Images\MainImage.png" />
+    <Content Include="Content\Images\rac-n-cap logo no background.png" />
     <Content Include="Content\main.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -195,6 +196,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Images\rac-n-cap logo no background.psd" />
+    <Content Include="fonts\Lovelo Black.otf" />
+    <Content Include="fonts\Lovelo Line Bold.otf" />
+    <Content Include="fonts\Lovelo Line Light.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

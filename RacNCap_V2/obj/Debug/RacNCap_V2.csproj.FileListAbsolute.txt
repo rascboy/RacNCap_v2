@@ -59,7 +59,6 @@ C:\RacNCap_V2\RacNCap_V2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\RacNCap_V2\RacNCap_V2\obj\Debug\RacNCap_V2.csprojResolveAssemblyReference.cache
 C:\RacNCap_V2\RacNCap_V2\obj\Debug\RacNCap_V2.dll
 C:\RacNCap_V2\RacNCap_V2\obj\Debug\RacNCap_V2.pdb
-D:\proj\RacNCap_V2\RacNCap_V2\obj\Debug\RacNCap_V2.csprojResolveAssemblyReference.cache
 D:\proj\RacNCap_V2\RacNCap_V2\bin\RacNCap_V2.dll.config
 D:\proj\RacNCap_V2\RacNCap_V2\bin\RacNCap_V2.dll
 D:\proj\RacNCap_V2\RacNCap_V2\bin\RacNCap_V2.pdb
@@ -118,5 +117,6 @@ D:\proj\RacNCap_V2\RacNCap_V2\bin\Microsoft.Owin.Security.OAuth.xml
 D:\proj\RacNCap_V2\RacNCap_V2\bin\Microsoft.Owin.Security.Google.xml
 D:\proj\RacNCap_V2\RacNCap_V2\bin\Microsoft.Owin.Security.Twitter.xml
 D:\proj\RacNCap_V2\RacNCap_V2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\proj\RacNCap_V2\RacNCap_V2\obj\Debug\RacNCap_V2.csprojResolveAssemblyReference.cache
 D:\proj\RacNCap_V2\RacNCap_V2\obj\Debug\RacNCap_V2.dll
 D:\proj\RacNCap_V2\RacNCap_V2\obj\Debug\RacNCap_V2.pdb
