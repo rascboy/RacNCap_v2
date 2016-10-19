@@ -30,3 +30,13 @@ a :visited {
 a :hover {
     color: white;
 }
+
+#logoBrand 
+{
+    background: url('images/rac-n-cap_logo_no_background.png') no-repeat top left;
+    display: block;
+    width: 150px;
+    height: 50px;
+    float: left;
+    text-indent: -9999px;
+}

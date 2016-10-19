@@ -188,7 +188,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\JumboImage.jpg" />
     <Content Include="Content\Images\MainImage.png" />
-    <Content Include="Content\Images\rac-n-cap logo no background.png" />
+    <Content Include="Content\Images\rac-n-cap_logo_no_background.png" />
     <Content Include="Content\main.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
