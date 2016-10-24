@@ -26,5 +26,12 @@ namespace RacNCap_V2.Controllers
 
             return View();
         }
+
+        public ActionResult Gallery()
+        {
+            ViewBag.Message = "Gallery Page";
+
+            return View();
+        }
     }
 }
