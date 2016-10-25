@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -189,6 +190,46 @@
     <Content Include="Content\Images\JumboImage.jpg" />
     <Content Include="Content\Images\MainImage.png" />
     <Content Include="Content\Images\rac-n-cap_logo_no_background.png" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2801 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2806 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2816 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2819 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2821 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2823 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2824 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2825 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2826 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2827 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2828 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2829 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2836 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2838 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2844 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2845 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2847 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2854 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04387.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04388.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04389.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04392.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04394.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04396.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04397.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04398.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04399.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04400.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04401.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04402.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04407.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04408.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04410.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04411.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04413.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04415.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\DSC04416.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\truck close cap.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\truck open cap-1.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\truck open cap.jpg" />
     <Content Include="Content\main.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -201,6 +242,8 @@
     <Content Include="fonts\Lovelo Line Bold.otf" />
     <Content Include="fonts\Lovelo Line Light.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\galleria-1.4.7.js" />
+    <Content Include="Scripts\galleria-1.4.7.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -256,6 +299,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\classic\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
