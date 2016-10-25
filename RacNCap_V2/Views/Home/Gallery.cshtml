@@ -1,0 +1,214 @@
+﻿@{
+    ViewBag.Title = "Gallery";
+}
+<h2 style="color:white;">@ViewBag.Title</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="~/content/site.css" rel="stylesheet" />
+    @*<title>Galleria Classic Theme</title>*@
+    <style>
+        /* Demo styles */
+        html, body {
+            /*background: #222;*/
+            margin: 0;
+        }
+
+        body {
+            border-top: 4px solid #000;
+            /*background-color: #485f77*/
+        }
+
+        .content {
+            color: #777;
+            /*font: 12px/1.4 "helvetica neue",arial,sans-serif;*/
+            width: 1366px;
+            margin-left: -10%;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 12px;
+            font-weight: normal;
+            color: #ddd;
+            margin: 0;
+        }
+
+        p {
+            margin: 0 0 20px;
+        }
+
+        a {
+            color: #22BCB9;
+            text-decoration: none;
+        }
+
+        .cred {
+            margin-top: 20px;
+            font-size: 11px;
+        }
+
+        /* This rule is read by Galleria to define the gallery height: */
+        #galleria {
+            height: 720px;
+        }
+    </style>
+
+    <!-- load jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+    <!-- load Galleria -->
+    @*<script src="../../galleria-1.4.7.min.js"></script>*@
+    <script src="~/scripts/galleria-1.4.7.min.js"></script>
+
+</head>
+<body>
+    <div class="content">
+        @*<h1>Galleria Classic Theme</h1>
+        <p>Demonstrating a basic gallery example.</p>*@
+
+        <!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+
+        <div id="galleria">
+
+            <a href="~/content/images/racncap photos/atk_2806 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2806 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2806 copy.jpg"/>
+            </a>
+            
+            <a href="~/content/images/racncap photos/ATK_2816 copy.jpg">
+                <img src="~/content/images/racncap photos/ATK_2816 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/ATK_2816 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/ATK_2819 copy.jpg">
+                <img src="~/content/images/racncap photos/ATK_2819 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/ATK_2819 copy.jpg"/>
+            </a>
+            <a href="~/content/images/racncap photos/ATK_2821 copy.jpg">
+                <img src="~/content/images/racncap photos/ATK_2821 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/ATK_2821 copy.jpg"/>
+            </a>
+            <a href="~/content/images/racncap photos/atk_2823 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2823 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2823 copy.jpg"/>
+            </a>
+            <a href="~/content/images/racncap photos/atk_2824 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2824 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2824 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2825 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2825 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2825 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2826 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2826 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2826 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2827 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2827 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2827 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2828 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2828 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2828 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2829 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2829 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2829 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2836 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2836 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2836 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2838 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2838 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2838 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2844 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2844 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2844 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2845 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2845 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2845 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2847 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2847 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2847 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/atk_2854 copy.jpg">
+                <img src="~/content/images/racncap photos/atk_2854 copy.jpg" ,=,
+                     data-big="~/content/images/racncap photos/atk_2854 copy.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04387.jpg">
+                <img src="~/content/images/racncap photos/dsc04387.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04387.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04388.jpg">
+                <img src="~/content/images/racncap photos/dsc04388.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04388.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04389.jpg">
+                <img src="~/content/images/racncap photos/dsc04389.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04389.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04392.jpg">
+                <img src="~/content/images/racncap photos/dsc04392.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04392.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04394.jpg">
+                <img src="~/content/images/racncap photos/dsc04396.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04396.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04397.jpg">
+                <img src="~/content/images/racncap photos/dsc04397.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04397.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04398.jpg">
+                <img src="~/content/images/racncap photos/dsc04398.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04398.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/dsc04399.jpg">
+                <img src="~/content/images/racncap photos/dsc04399.jpg" ,=,
+                     data-big="~/content/images/racncap photos/dsc04399.jpg" />
+            </a>
+            <a href="~/content/images/racncap photos/DSC04400.JPG">
+                <img src="~/content/images/racncap photos/DSC04400.JPG" ,=,
+                     data-big="~/content/images/racncap photos/DSC04400.JPG" />
+            </a>
+            <a href="~/content/images/racncap photos/DSC04401.JPG">
+                <img src="~/content/images/racncap photos/DSC04401.JPG" ,=,
+                     data-big="~/content/images/racncap photos/DSC04401.JPG" />
+            </a>
+            <a href="~/content/images/racncap photos/DSC04402.JPG">
+                <img src="~/content/images/racncap photos/DSC04402.JPG" ,=,
+                     data-big="~/content/images/racncap photos/DSC04402.JPG" />
+            </a>
+            <a href="~/content/images/racncap photos/DSC04407.JPG">
+                <img src="~/content/images/racncap photos/DSC04407.JPG" ,=,
+                     data-big="~/content/images/racncap photos/DSC04407.JPG" />
+            </a>
+
+            @*<a href="https://vimeo.com/25750735">
+                <span class="video">Works for vimeo too.</span>
+            </a>
+            <a href="https://www.youtube.com/watch?v=gAeYCJZ_meY">
+                <span class="video">Works for youtube too.</span>
+            </a>*@
+
+        </div>
+        <p class="cred">Made by <a href="http://galleria.io">Galleria</a>.</p>
+    </div>
+    <script src="~/content/classic/galleria.classic.min.js"></script>
+    <script>
+        $(function () {
+            // Load the classic theme
+            //Galleria.loadTheme('~/content/classic/galleria.classic.min.js');
+            // Initialize Galleria
+            Galleria.run('#galleria');
+        });
+    </script>
+</body>
+</html>
