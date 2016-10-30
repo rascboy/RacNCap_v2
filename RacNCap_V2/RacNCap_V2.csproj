@@ -187,6 +187,13 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\classic\classic-demo-cdn.html" />
+    <Content Include="Content\classic\classic-demo.html" />
+    <Content Include="Content\classic\classic-loader.gif" />
+    <Content Include="Content\classic\classic-map.png" />
+    <Content Include="Content\classic\galleria.classic.css" />
+    <Content Include="Content\classic\galleria.classic.js" />
+    <Content Include="Content\classic\galleria.classic.min.js" />
     <Content Include="Content\Images\JumboImage.jpg" />
     <Content Include="Content\Images\MainImage.png" />
     <Content Include="Content\Images\rac-n-cap_logo_no_background.png" />
@@ -241,6 +248,7 @@
     <Content Include="fonts\Lovelo Black.otf" />
     <Content Include="fonts\Lovelo Line Bold.otf" />
     <Content Include="fonts\Lovelo Line Light.otf" />
+    <None Include="Properties\PublishProfiles\GoDaddy Publish.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\galleria-1.4.7.js" />
     <Content Include="Scripts\galleria-1.4.7.min.js" />
@@ -299,7 +307,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\classic\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
