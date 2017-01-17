@@ -186,7 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\classic\classic-demo-cdn.html" />
     <Content Include="Content\classic\classic-demo.html" />
     <Content Include="Content\classic\classic-loader.gif" />
@@ -197,7 +196,6 @@
     <Content Include="Content\Images\JumboImage.jpg" />
     <Content Include="Content\Images\MainImage.png" />
     <Content Include="Content\Images\rac-n-cap_logo_no_background.png" />
-    <Content Include="Content\Images\RacNCap Photos\ATK_2801 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2806 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2816 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2819 copy.jpg" />
@@ -234,11 +232,16 @@
     <Content Include="Content\Images\RacNCap Photos\DSC04413.JPG" />
     <Content Include="Content\Images\RacNCap Photos\DSC04415.JPG" />
     <Content Include="Content\Images\RacNCap Photos\DSC04416.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\main-cover-2.JPG" />
+    <Content Include="Content\Images\RacNCap Photos\Main_cover.jpg" />
     <Content Include="Content\Images\RacNCap Photos\truck close cap.jpg" />
     <Content Include="Content\Images\RacNCap Photos\truck open cap.jpg" />
     <Content Include="Content\main.css" />
+    <Content Include="Content\simple-sidebar.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\codropsicons.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\license.txt" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
@@ -247,8 +250,13 @@
     <Content Include="fonts\Lovelo Black.otf" />
     <Content Include="fonts\Lovelo Line Bold.otf" />
     <Content Include="fonts\Lovelo Line Light.otf" />
+    <Content Include="fonts\codropsicons.eot" />
+    <Content Include="fonts\codropsicons.ttf" />
+    <Content Include="fonts\codropsicons.woff" />
+    <Content Include="fonts\ITC Avant Garde Gothic Demi Condensed.otf" />
     <None Include="Properties\PublishProfiles\GoDaddy Publish.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\dots.js" />
     <Content Include="Scripts\galleria-1.4.7.js" />
     <Content Include="Scripts\galleria-1.4.7.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -259,10 +267,13 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
