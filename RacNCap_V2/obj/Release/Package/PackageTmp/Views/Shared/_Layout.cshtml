@@ -7,43 +7,172 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <link href="~/content/Site.css" rel="stylesheet" />
+    <link href="~/content/simple-sidebar.css" rel="stylesheet" />
+
+    <style>
+        .nav-icon {
+            height: 35px;
+            width: 100px;
+            margin-top: 8px;
+            margin-left: 20px;
+            color:#A7A9AB;
+            left: 75%;
+        }
+
+        .nav-right-btn {
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: 10px;
+            margin-right: 20px;
+            color: #A7A9AB;
+        }
+
+        #nav-spacer {
+            vertical-align: middle;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+
+    </style>
 
 </head>
 <body>
-    <div class="navbar navbar-inverse" style="opacity: 0.7;">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="~/Home" style="margin-top:-15px;"><img style="width: 200px; height: 75px;" src="~/content/images/rac-n-cap_logo_no_background.png" /></a>
-            </div>
-            <div class="navbar-collapse collapse" style="padding-top: 10px;">
-                <ul class="nav navbar-nav">
-                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Trucks","Index", "Trucks")</li>*@
-                    @*<li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Gallery</a></li>*@
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
+
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #222;">
+        <div class="nav navbar-header pull-left">
+            <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars fa-2x nav-icon" aria-hidden="true"></i></a>
+        </div>
+            
+        <a href="~/Home" class="navbar-brand"><img src="~/content/images/rac-n-cap_logo_no_background.png" /></a>
+
+        <div class="nav navbar-header pull-right">
+            <a href="~/Home" class="nav-right-btn"><i id="account" class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+            <span id="nav-spacer">  </span>
+            <a href="~/Home" class="nav-right-btn"><i id="cart" class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </nav>
+
+        <div data-spy="affix" id="dot-nav">
+            <ul>
+                <li class="awesome-tooltip active" title="Home"><a href="#main-body"></a></li>
+                <li class="awesome-tooltip" title="Utility"><a href="#utility-info"></a></li>
+                <li class="awesome-tooltip" title="Capacity"><a href="#capacity-info"></a></li>
+                <li class="awesome-tooltip" title="Security"><a href="#security-info"></a></li>
+                <li class="awesome-tooltip" title="Quality"><a href="#quality-info"></a></li>
+            </ul>
+        </div>   
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Shortcuts</a>
+                </li>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        @*<hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>*@
-    </div>
+ 
+    @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    <script src="https://use.fontawesome.com/23090c9fd7.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.awesome-tooltip').tooltip({
+                placement: 'left'
+            });
+
+            $(window).bind('scroll', function (e) {
+                dotnavigation();
+            });
+
+            function dotnavigation() {
+
+                var numSections = $('section').length;
+
+                $('#dot-nav li a').removeClass('active').parent('li').removeClass('active');
+                $('section').each(function (i, item) {
+                    var ele = $(item), nextTop;
+
+                    console.log(ele.next().html());
+
+                    if (typeof ele.next().offset() != "undefined") {
+                        nextTop = ele.next().offset().top;
+                    }
+                    else {
+                        nextTop = $(document).height();
+                    }
+
+                    if (ele.offset() !== null) {
+                        thisTop = ele.offset().top - ((nextTop - ele.offset().top) / numSections);
+                    }
+                    else {
+                        thisTop = 0;
+                    }
+
+                    var docTop = $(document).scrollTop();
+
+                    if (docTop >= thisTop && (docTop < nextTop)) {
+                        $('#dot-nav li').eq(i).addClass('active');
+                    }
+                });
+            }
+
+            /* get clicks working */
+            $('#dot-nav li').click(function () {
+
+                var id = $(this).find('a').attr("href"),
+                  posi,
+                  ele,
+                  padding = 0;
+
+                ele = $(id);
+                posi = ($(ele).offset() || 0).top - padding;
+
+                $('html, body').animate({ scrollTop: posi }, 'slow');
+
+                return false;
+            });
+
+            /* end dot nav */
+        });
+
+    </script>
+
 </body>
 </html>

@@ -193,8 +193,10 @@
     <Content Include="Content\classic\galleria.classic.css" />
     <Content Include="Content\classic\galleria.classic.js" />
     <Content Include="Content\classic\galleria.classic.min.js" />
+    <Content Include="Content\Images\Capacity.jpg" />
     <Content Include="Content\Images\JumboImage.jpg" />
     <Content Include="Content\Images\MainImage.png" />
+    <Content Include="Content\Images\Quality.JPG" />
     <Content Include="Content\Images\rac-n-cap_logo_no_background.png" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2806 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2816 copy.jpg" />
@@ -236,6 +238,9 @@
     <Content Include="Content\Images\RacNCap Photos\Main_cover.jpg" />
     <Content Include="Content\Images\RacNCap Photos\truck close cap.jpg" />
     <Content Include="Content\Images\RacNCap Photos\truck open cap.jpg" />
+    <Content Include="Content\Images\Security-m.jpg" />
+    <Content Include="Content\Images\Security.jpg" />
+    <Content Include="Content\Images\Utility.jpg" />
     <Content Include="Content\main.css" />
     <Content Include="Content\simple-sidebar.css" />
     <Content Include="favicon.ico" />

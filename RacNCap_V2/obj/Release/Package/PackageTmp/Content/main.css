@@ -1,35 +1,146 @@
 ﻿@font-face {
     font-family: 'lovelo black';
     src: url('../fonts/lovelo black.otf') format('opentype');
+
+    font-family: 'itc avant garde gothic demi condensed';
+    src: url('../fonts/itc avant garde gothic demi condensed.otf') format('opentype');
+}
+
+#main {
+    height: 100%;
 }
 
 body {
-    font-family: 'lovelo black' ,'Roboto', sans-serif;
-    font-weight: 300;
-    background-color: #485f77;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-image: url('images/racncap photos/atk_2801 copy.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 70%;
-    text-align: center;
-    overflow: hidden;
+    font-family: 'itc avant garde gothic demi condensed';
+    max-width: 100%;
+    overflow-x: hidden;
+    /*padding-top: 3.5em;*/
+    height: 100%;
 }
 
-/*body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-image: url('images/racncap photos/atk_2801 copy.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 70%;
-    text-align: center;
-    overflow: hidden;
-}*/
+html {
+    height: 100%;
+}
+#content {
 
-header {
+}
+
+#main-body {
+    background-image: url('images/racncap photos/main-cover-2.jpg');
+	background-size: cover; /*will skew the image so that everything fits but won't fit perfectly. Makes the images as small as possible to make it fit the screen but won't change the aspect ratio or size. Will stretch.*/
+	background-position: center;
+    height: 1200px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    border-color: #222;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #wrapper.toggled {
+        padding-left: 250px;
+    }
+
+    #sidebar-wrapper {
+        width: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 300px;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: -250px;
+    }
+}
+
+#dot-nav{    
+	right: 0px;
+	top: 50%;
+	margin-top: -50px;
+	height: 145px;
+    width: 25px;
+	z-index: 999;
+    border: 1px solid #222;
+    border-radius: 5px; 
+    background-color: #222;
+    padding-bottom: 10px;
+    padding-left: 2px;
+}
+
+#dot-nav ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+#dot-nav li {
+	position: relative;
+	background-color: #bdc3c7;
+	border:3px solid #bdc3c7;
+	border-radius: 15px 15px 15px 15px;
+	cursor: pointer;
+	padding: 5px;
+	height: 10px;
+	margin: 10px 10px 0px 0px;
+	width: 10px;
+	vertical-align:bottom;
+}
+#dot-nav li.active, #dot-nav li:hover {
+	background-color: #4286f4;
+}
+
+#dot-nav a {
+	outline: 0;
+	vertical-align:top;
+	margin: 0px 0px 0px 25px;
+	position: relative;
+	top:-5px;
+}
+.awesome-tooltip + .tooltip > .tooltip-inner {
+    background-color: #4286f4; 
+    color: #f5f5f5; 
+    border: 1px solid #4286f4; 
+}
+.awesome-tooltip + .tooltip.left > .tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid #4286f4;
+}
+
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+/* DEMO example styles for logo image */
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    width: auto;
+    padding: 7px 14px;
+}
+
+/*header {
   padding: 20px 0;
 }
 
@@ -117,59 +228,4 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
-}
-
-#mainNavContainer {
-    background-color: rgba(72,95,119, 0.6);
-    width: 500%;
-    margin-left: -200%;
-    position: relative;
-}
-
-#pushDown {
-    /*background-color: rgba(72,95,119, 0.6);*/
-    height: 500px;
-}
-
-#contentContainer {
-    margin-left: 38.7%;
-}
-
-.mainContent {
-    text-align:center;
-    width: 400px;
-    height: 240px;
-    /*border: 1px solid white;*/
-    margin: 30px 0px 50px 25px;
-    padding: 0px 0px 10px 0px;
-}
-
-.mainContent a {
-    display: inline-block;
-}
-
-.mainContent img {
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
-    border: 1px solid white;
-}
-
-.mainContent span {
-    color: grey;
-    position: absolute; 
-    font-size: 16px;
-    top: 10px; 
-    left: 0; 
-    width: 100%;
-    margin-right: -100000px;
-    letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-}
-
-/*.full-page-width {
-    width: 100%;
-    overflow: hidden;
-    height: 500px;
 }*/

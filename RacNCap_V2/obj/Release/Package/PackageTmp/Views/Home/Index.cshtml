@@ -2,74 +2,149 @@
     ViewBag.Title = "Home Page";
 }
 
-@*<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
-
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>*@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Skillfair</title>
+    <title>Home</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     <link href="~/content/main.css" rel="stylesheet" >
+    <style>
+        #catch-phrase {
+            padding-top: 100px;
+            font-weight: 700;
+            font-size: 2.2em;
+            text-decoration: underline; 
+            text-shadow: 2px 2px 2px #000000;
+            color: #ccc;
+        }
+
+        #main-logo {
+            margin-top: 100px; 
+            width: 750px; 
+            height: 150px;
+            border:1px solid #fff; 
+            box-shadow: 10px 10px 5px #ccc; 
+            -moz-box-shadow: 5px 5px 5px #ccc; 
+            -webkit-box-shadow: 10px 10px 5px #ccc; 
+            -khtml-box-shadow: 10px 10px 5px #ccc; 
+    }
+    </style>
 </head>
 <body>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="full-page-width">
-                <div id="pushDown"></div>
-                <div id="mainNavContainer" class="col-md-12">
-                    <div id="contentContainer">
-                        <div class="col-md-4 mainContent">
-                            <a href="~/Home/Gallery"><img src="~/content/images/racncap photos/dsc04396.jpg" /></a>
-                            <span>Gallery</span>
+    <div id="main">
+        <section id="main-body" class="container-fluid no-padding">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-md-12 col-sm-12" style="text-align: center;">
+                            @*<img class="img-responsive" id="main-logo" src="~/content/images/rac-n-cap_logo_no_background.png" />*@
+                            @*<p id="catch-phrase" style="margin-top: 1em;">MORE THAN JUST A TRUCK COVER</p>*@
                         </div>
-                        <div class="col-md-4 mainContent">
-                            <a href="#"><img src="~/content/images/racncap photos/dsc04407.jpg" /></a>
-                            <span>Contact</span>
+                    </div>
+                    <div class="col-md-4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="utility-info">
+            <div class="container-fluid no-padding">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6" id="">
+                            <h1 id="product-info-header" style="text-align: center; margin-top: 50px; color: #209bd8; text-shadow: 2px 2px 2px #000000; font-size: 5em;">UTILITY</h1>
+                            <img src="~/content/images/utility.jpg" style="margin-left: -100px;" />
                         </div>
-                        <div class="col-md-4 mainContent">
-                            <a href="#"><img src="~/content/images/racncap photos/atk_2826 copy.jpg" /></a>
-                            <span>About</span>
+                        <div class="col-md-6">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4" style="margin-top: 300px; margin-left: 50px; border-left: 1px solid black; border-bottom: 1px solid black;">
+                                <p>
+                                    Convert your normal pick up truck into a multi-use workhorse. With Rac N Cap, you can reconfigure your truck into whatever the job requires.
+                                </p>
+                            </div>
+                            <div class="col-md-4"></div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="capacity-info">
+            <div class="container-fluid no-padding">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-5">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4" style="margin-top: 300px; margin-left: 50px; border-left: 1px solid black; border-bottom: 1px solid black;">
+                                <p>
+                                    Need more space? Simple pop open the cover when the job requires you to pick up that extra load and save yourself a roundtrip
+                                </p>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+
+                        <div class="col-md-6" id="">
+                            <h1 id="product-info-header" style="text-align: center; margin-top: 50px; color: #209bd8; text-shadow: 2px 2px 2px #000000; font-size: 5em;">CAPACITY</h1>
+                            <img src="~/content/images/Capacity.jpg" style="margin-right: 100px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="security-info">
+            <div class="container-fluid no-padding">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6" id="">
+                            <h1 id="product-info-header" style="text-align: center; margin-top: 50px; color: #209bd8; text-shadow: 2px 2px 2px #000000; font-size: 5em;">SECURITY</h1>
+                            <img src="~/content/images/security-m.jpg" style="margin-top: 50px"/>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4" style="margin-top: 300px; margin-left: 50px; border-left: 1px solid black; border-bottom: 1px solid black;">
+                                <p>
+                                    Whether you're moving between different job sites or parked in a particularly questionable neighborhood, Rac N Cap's heavy duty lock will keep all your valuable tools and supplies safe and secure
+                                </p>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quality-info" style="margin-bottom: 50px;">
+            <div class="container-fluid no-padding">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-4" id="">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4" style="margin-top: 300px; margin-left: 50px; border-left: 1px solid black; border-bottom: 1px solid black;">
+                                <p>
+                                    Rac N Cap build's it's covers using high quality steel and aluminum. It's a cover that is in for the long haul and will last for years under heavy use.
+                                </p>
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h1 id="product-info-header" style="text-align: center; margin-top: 50px; color: #209bd8; text-shadow: 2px 2px 2px #000000; font-size: 5em;">QUALITY</h1>
+                            <img src="~/content/images/quality.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="contact-footer" style="width: 100%; height: 100px;">
+            
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-12">
-            <div id="aboutContainer">
-                <div></div>
-            </div>
-        </div>
-    </div>
+       
+
 </body>
 </html>
