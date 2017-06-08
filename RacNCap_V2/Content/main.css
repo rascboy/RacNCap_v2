@@ -26,7 +26,8 @@ html {
 }
 
 #main-body {
-    background-image: url('images/racncap photos/main-cover-2.jpg');
+    /*background-image: url('images/racncap photos/main-cover-2.jpg');*/
+    background-image: url('images/main-transparent.jpg');
 	background-size: cover; /*will skew the image so that everything fits but won't fit perfectly. Makes the images as small as possible to make it fit the screen but won't change the aspect ratio or size. Will stretch.*/
 	background-position: center;
     height: 1200px;

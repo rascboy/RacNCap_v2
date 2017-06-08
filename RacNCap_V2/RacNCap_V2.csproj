@@ -195,6 +195,7 @@
     <Content Include="Content\classic\galleria.classic.min.js" />
     <Content Include="Content\Images\Capacity.jpg" />
     <Content Include="Content\Images\JumboImage.jpg" />
+    <Content Include="Content\Images\main-transparent.jpg" />
     <Content Include="Content\Images\MainImage.png" />
     <Content Include="Content\Images\Quality.JPG" />
     <Content Include="Content\Images\rac-n-cap_logo_no_background.png" />
