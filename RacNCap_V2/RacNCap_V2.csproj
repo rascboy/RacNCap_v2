@@ -260,7 +260,9 @@
     <Content Include="fonts\codropsicons.ttf" />
     <Content Include="fonts\codropsicons.woff" />
     <Content Include="fonts\ITC Avant Garde Gothic Demi Condensed.otf" />
-    <Content Include="app.manifest" />
+    <Content Include="app.manifest">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Properties\PublishProfiles\GoDaddy Publish.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\dots.js" />
