@@ -91,9 +91,9 @@
         <a href="~/Home" class="navbar-brand"><img src="~/content/images/rac-n-cap_logo_no_background.png" /></a>
 
         <div class="nav navbar-header pull-right">
-            <a href="~/Home" class="nav-right-btn"><i id="account" class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+            @*<a href="~/Home" class="nav-right-btn"><i id="account" class="fa fa-user fa-2x" aria-hidden="true"></i></a>
             <span id="nav-spacer">  </span>
-            <a href="~/Home" class="nav-right-btn"><i id="cart" class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+            <a href="~/Home" class="nav-right-btn"><i id="cart" class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>*@
         </div>
     </nav>
 
@@ -110,7 +110,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper" style="margin-top: 50px;">
+        <div id="sidebar-wrapper" @*style="margin-top: 50px;"*@>
             <ul class="sidebar-nav">
                 @*<li class="sidebar-brand">
                     <a href="#">
@@ -118,38 +118,38 @@
                     </a>
                 </li>*@
                 <li class="block-nav">
-                    <a href="#">
+                    <a href="/Home">
                         <span>Home</span>
                     </a>
                 </li>
                 <li class="block-nav">
-                    <a href="#">
+                    <a href="/Home/About">
                         <span>About</span>
                     </a>
                 </li>
                 <li class="block-nav">
-                    <a href="#">
+                    <a href="/Home/Gallery">
                         <span>Gallery</span>
                     </a>
                 </li>
                 <li class="block-nav">
-                    <a href="#">
+                    <a href="/Home/Contact">
                         <span>Contact</span>
                     </a>
                 </li>
                 <li class="nav-social-media" style="margin-top: 0px;">
-                    <a class="social-links" href="#">
-                        <span>Facebook</span>
+                    <a class="social-links" href="https://www.facebook.com/racncapcover/">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i><span>  Facebook</span>
+                    </a>
+                </li>
+                <li class="nav-social-media">
+                    <a class="social-links" href="https://www.instagram.com/racncap/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i><span>  Instagram</span>
                     </a>
                 </li>
                 <li class="nav-social-media">
                     <a class="social-links" href="#">
-                        <span>Instagram</span>
-                    </a>
-                </li>
-                <li class="nav-social-media">
-                    <a class="social-links" href="#">
-                        <span>Twitter</span>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i><span>  Twitter</span>
                     </a>
                 </li>
             </ul>

@@ -1,7 +1,6 @@
 ﻿@{
     ViewBag.Title = "Gallery";
 }
-<h2 style="color:white;">@ViewBag.Title</h2>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +8,9 @@
     <title>Rac N Cap - Gallery</title>
     <meta charset="utf-8" />
     <link href="~/content/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="~/content/main.css" rel="stylesheet">
     @*<title>Galleria Classic Theme</title>*@
     <style>
         /* Demo styles */
@@ -53,7 +55,14 @@
 
         /* This rule is read by Galleria to define the gallery height: */
         #galleria {
-            height: 720px;
+            height: 850px;
+        }
+        #imagePost {
+            width:60%;
+            margin: auto;
+        }
+        #dot-nav {
+            visibility: hidden;
         }
     </style>
 
@@ -150,10 +159,6 @@
             <a href="~/content/images/racncap photos/dsc04388.jpg">
                 <img src="~/content/images/racncap photos/dsc04388.jpg" ,=,
                      data-big="~/content/images/racncap photos/dsc04388.jpg" />
-            </a>
-            <a href="~/content/images/racncap photos/dsc04389.jpg">
-                <img src="~/content/images/racncap photos/dsc04389.jpg" ,=,
-                     data-big="~/content/images/racncap photos/dsc04389.jpg" />
             </a>
             <a href="~/content/images/racncap photos/dsc04392.jpg">
                 <img src="~/content/images/racncap photos/dsc04392.jpg" ,=,

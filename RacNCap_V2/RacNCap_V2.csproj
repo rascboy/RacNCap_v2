@@ -194,6 +194,7 @@
     <Content Include="Content\classic\galleria.classic.js" />
     <Content Include="Content\classic\galleria.classic.min.js" />
     <Content Include="Content\Images\Capacity.jpg" />
+    <Content Include="Content\Images\closed-cover.jpg" />
     <Content Include="Content\Images\JumboImage.jpg" />
     <Content Include="Content\Images\main-transparent.jpg" />
     <Content Include="Content\Images\MainImage.png" />
@@ -205,6 +206,7 @@
     <Content Include="Content\Images\RacNCap Photos\ATK_2821 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2823 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2824 copy.jpg" />
+    <Content Include="Content\Images\RacNCap Photos\ATK_2824.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2825 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2826 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2827 copy.jpg" />
@@ -216,9 +218,9 @@
     <Content Include="Content\Images\RacNCap Photos\ATK_2845 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2847 copy.jpg" />
     <Content Include="Content\Images\RacNCap Photos\ATK_2854 copy.jpg" />
+    <Content Include="Content\Images\Contact-bkgrnd.jpg" />
     <Content Include="Content\Images\RacNCap Photos\DSC04387.JPG" />
     <Content Include="Content\Images\RacNCap Photos\DSC04388.JPG" />
-    <Content Include="Content\Images\RacNCap Photos\DSC04389.JPG" />
     <Content Include="Content\Images\RacNCap Photos\DSC04392.JPG" />
     <Content Include="Content\Images\RacNCap Photos\DSC04394.JPG" />
     <Content Include="Content\Images\RacNCap Photos\DSC04396.JPG" />
@@ -242,6 +244,7 @@
     <Content Include="Content\Images\Security-m.jpg" />
     <Content Include="Content\Images\Security.jpg" />
     <Content Include="Content\Images\Utility.jpg" />
+    <Content Include="Content\Images\About-header.jpg" />
     <Content Include="Content\main.css" />
     <Content Include="Content\simple-sidebar.css" />
     <Content Include="favicon.ico" />

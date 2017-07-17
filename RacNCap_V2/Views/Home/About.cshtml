@@ -1,7 +1,115 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+<link href="~/content/main.css" rel="stylesheet">
+<style>
+    #catch-phrase {
+        padding-top: 100px;
+        font-weight: 700;
+        font-size: 2.2em;
+        text-decoration: underline;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ccc;
+    }
 
-<p>Use this area to provide additional information.</p>
+    #main-logo {
+        margin-top: 100px;
+        width: 750px;
+        height: 150px;
+        border: 1px solid #fff;
+        box-shadow: 10px 10px 5px #ccc;
+        -moz-box-shadow: 5px 5px 5px #ccc;
+        -webkit-box-shadow: 10px 10px 5px #ccc;
+        /*-khtml-box-shadow: 10px 10px 5px #ccc;*/
+    }
+
+    #sidebar-wrapper {
+        margin-top: 0px;
+    }
+    #main-about-content {
+        text-align: center;
+    }
+    #header-content {
+        width: 100%;
+        height: 500px;
+        /*background-image: url("Content/Images/RacNCap Photos/About-header.jpg");*/
+        background-image: url('../../Content/Images/About-header.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    #dot-nav {
+        visibility: hidden;
+    }
+    #about-info-container {
+        margin: auto;
+        width: 60%;
+        border: 5px solid #dce0e2;
+        border-bottom: none;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        margin-top: 325px;
+        height: 750px;
+    }
+    #title {
+        font-size: 64px;
+        font-weight: bold;
+        /*text-decoration: underline;*/
+        letter-spacing: 4px;
+    }
+    #quote {
+        font-family: Helvetica;
+        font-size: 72px;
+        margin-top: 0px;
+    }
+    #description-container {
+        margin: auto;
+        margin-top: 25px;
+        width: 50%;
+    }
+    #description {
+        text-align: left;
+        letter-spacing: 2px;
+    }
+    .first-word {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+</style>
+
+@*<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>*@
+
+<div id="main-about-content">
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" id="header-content">
+                <div id="about-info-container"><p id="title">-About Us-</p></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+               <p id="quote">"More than just a truck cover."</p>
+            </div>
+        </div>
+        <div class="row" id="description-container">
+            <div class="col-md-6" id="description">
+                <p><span class="first-word">PRODUCTIVITY</span> is the result of commitment to excellence, intelligence in planning, and laser focus. </p>
+
+                <p>Here at Rac-N-Cap we promote such productivity through our unique truck covers. Years of committed, intelligent and focused engineering
+                have resulted in a versatile truck cover that is not only rugged but light weight as well. This unique utility has been recognized by the U.S. Patent office and has been awarded with
+                <span style="text-decoration: underline; color: blue;">multiple patents</span> for the innovations in our work. We believe that the Rac-N-Cap will bring your truck to the next level.</p>
+
+                <p><span class="first-word">RAC-N-CAP</span> is a tranforming truck cover and will turn any truck into a versatile and rugged utility vehicle. Definitely --More than just a truck cover.--</p>
+            </div>
+            <div class="col-md-6" style="text-align: right;">
+                <img src="~/Content/Images/closed-cover.jpg" style="width: 480px; height: 360px; border: 2px solid gray; border-radius: 4px;"/>
+            </div>
+        </div>
+    </section>
+</div>
+
